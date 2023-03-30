@@ -169,7 +169,7 @@ void alterar_gasto(){
                     scanf("%i", &lista_gastos[i].valor);
                     break;
                 default:
-                    printf("\nOp��o inv�lida!\n");
+                    printf("\nOpção inválida!\n");
                     system("pause");
                     system("cls");
             }
@@ -225,9 +225,9 @@ void menu(){
         system("cls");
         linha();
         printf("\nMenu:\n");
-        printf("1) Cadastrar gasto\n2) Listar todos os gastos cadastrados\n3) Alterar um gasto espec�fico\n4) Remover um gasto espec�fico\n5) Sair\n");
+        printf("1) Cadastrar gasto\n2) Listar todos os gastos cadastrados\n3) Alterar um gasto específico\n4) Remover um gasto específico\n5) Sair\n");
         linha();
-        printf("\nOp��o desejada: ");
+        printf("\nOpção desejada: ");
         setbuf(stdin, NULL);
         scanf("%i", &o);
         linha();
@@ -240,7 +240,7 @@ void menu(){
                 if(total_gastos)
                     listar_todos_gastos();
                 else{
-                    printf("\nN�o h� gastos cadastrados!\n");
+                    printf("\nNão há gastos cadastrados!\n");
                     system("pause");
                 }
                 break;
@@ -248,7 +248,7 @@ void menu(){
                 if(total_gastos)
                     alterar_gasto();
                 else{
-                    printf("\nN�o h� gastos cadastrados!\n");
+                    printf("\nNão há gastos cadastrados!\n");
                     system("pause");
                 }
                 break;
@@ -256,7 +256,7 @@ void menu(){
                 if(total_gastos)
                     remover_gasto();
                 else{
-                    printf("\nN�o h� gastos cadastrados!\n");
+                    printf("\nNão há gastos cadastrados!\n");
                     system("pause");
                 }
                 break;
@@ -266,7 +266,7 @@ void menu(){
                 system("pause");
                 break;
             default:
-                printf("\nOp��o inv�lida!\n");
+                printf("\nOpção inválida!\n");
                 system("pause");
                 system("cls");
         }
