@@ -1,0 +1,8 @@
+Estrutura do arquivo dados.txt:
+--------------------------------
+  1º -> Nº de gastos salvos
+  2º -> Dia do gasto 1
+  3º -> Nome do gasto 1
+  4º -> Valor do gasto 1
+  ...
+--------------------------------
